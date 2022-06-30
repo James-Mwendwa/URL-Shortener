@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.logo {
+    color: black !important;
+    font-size: 26px !important;
+    font-weight: 700 !important;
+}
+
+.navbar > a {
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(257, 7%, 63%);
+   
+}
+
+.signButtons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.login {
+    color: hsl(257, 7%, 63%);
+    border: 1px solid white;
+    font-size: 40px;
+}
