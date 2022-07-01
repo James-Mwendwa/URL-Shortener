@@ -1,0 +1,48 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    margin-top: 0;
+    
+}
+
+.homepage-info > h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+}
+
+.homepage-info > p {
+    color: hsl(257, 7%, 63%);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.homepage-info > button {
+    margin-top: 20px;
+    background-color: turquoise;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.homepage-info > button:hover{
+   color: turquoise;
+   background-color: white;
+}
+
+
+.homepage-svg{
+    display: flex;
+    align-items: center;
+}
+
+.homepage-svg > img {
+    object-fit: contain;
+    width: 100%;
+    
+}
