@@ -11,6 +11,7 @@
     width: 80%;
     margin-left: 132px;
     margin-top: 20px;
+    z-index: 1;
 }
 
 .formPage > form {

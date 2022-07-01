@@ -1,0 +1,76 @@
+.banner {
+    display: grid;
+    place-items: center;
+    background-color: hsl(0, 0%, 75%);
+    width: 100%;
+    margin-top: 10px;
+}
+
+.banner-info > h3 {
+    color: black !important;
+    font-size: 26px;
+    font-weight: 700;
+    margin-left: 70px;
+    margin-top: 20px;
+
+}
+
+.banner-info > p {
+    color: black !important;
+    font-size: 16px;
+    font-weight: 500;    
+}
+
+.bannerCards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: relative;
+}
+
+.card1,
+.card2,
+.card3 {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    height: 250px;
+    width: 300px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+
+.card2 {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 80px;
+}
+
+.card3 {
+    margin-top: 160px;
+}
+
+h4 {
+    color: hsl(260, 8%, 14%);
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+p{
+  margin-top: 10px;  
+  color: hsl(257, 7%, 63%);
+  font-weight: 500;
+  
+}
+
+.bannerCards > img > {
+    background-color: hsl(255, 11%, 22%);
+    align-items: center;
+    padding: 15px;
+    margin-top: -30px;
+    font-size: 18px;
+    border-radius: 50%;
+}
