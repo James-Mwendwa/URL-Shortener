@@ -1,0 +1,47 @@
+.formPage{
+    display: flex;
+    align-items: center;
+    height: 120px;
+    background-color: inherit;
+    background-image: url('/public/images/purple-gradient.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 80%;
+    margin-left: 132px;
+    margin-top: 20px;
+}
+
+.formPage > form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline-width: none;
+    border: none;
+    flex: 0.7;
+    margin-left: 20px;
+ 
+}
+
+.formPage > form > input {
+   outline-width: none;
+    font-size: 16px;
+    font-weight: 500;
+    width: 700px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+
+.formPage > button {
+    background-color: turquoise;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-left: 10px;
+    width: 150px;    
+}

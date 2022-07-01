@@ -1,9 +1,15 @@
+import { Button } from '@mui/material';
 import React from 'react';
 import './Form.css';
 
 function Form() {
   return (
-    <div>Form</div>
+    <div className='formPage'>
+        <form>
+            <input type="text" placeholder='Shorten a link here...' />
+        </form>
+        <Button>Shorten It!</Button>    
+    </div>
   )
 }
 

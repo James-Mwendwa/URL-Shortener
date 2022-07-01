@@ -3,6 +3,7 @@ import './App.css';
 import Footer from './Footer';
 import Header from './Header';
 import Home from './Home';
+import Form from './Form';
 
 
 
@@ -15,6 +16,7 @@ function App() {
           <Route exact path='/' component={Home} />
 
          </Switch>
+         <Form />
          <Route path='/footer' component={Footer} />
 
       </BrowserRouter>
