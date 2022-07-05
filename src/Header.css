@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
 .header {
     display: flex;
     align-items: center;
@@ -9,8 +11,9 @@
     border-bottom: 1px solid lightgray;
     width: 100%;
     margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
     
-
 }
 
 .navbar {
@@ -18,18 +21,20 @@
     align-items: center;
     justify-content: space-between;
     text-decoration: none;
+    font-family: 'Poppins', sans-serif;
 }
 
 .logo {
     color: black !important;
-    font-size: 26px !important;
+    font-size: 32px !important;
     font-weight: 700 !important;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navbar > a {
     text-decoration: none;
     margin-right: 15px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     color: hsl(257, 7%, 63%);
    
@@ -44,9 +49,26 @@
     margin-right: 20px;
 }
 
-/* .signButtons > button {
-    color: hsl(257, 7%, 63%);
-    border: 1px solid white;
-    font-size: 18px;
-} */
+.signButtons > button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    
+}
 
+.login {
+    color: hsl(257, 7%, 63%);
+    padding: 0 20px;
+    border: none;
+    background-color: white;
+}
+
+.signUp {
+    background-color: hsl(180, 66%, 49%);
+    padding: 3px 20px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    align-items: center;
+}

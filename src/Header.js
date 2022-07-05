@@ -1,4 +1,3 @@
-import { Button } from '@mui/material';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css';
@@ -14,8 +13,8 @@ function Header() {
       </div>
 
       <div className="signButtons">
-        <Button className='login'>Login</Button>
-        <Button className='signUp'>Sign Up</Button>
+        <button className='login'>Login</button>
+        <button className='signUp'>Sign Up</button>
       </div>
     </div>
   );

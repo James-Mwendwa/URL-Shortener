@@ -12,7 +12,8 @@
     border-radius: 10px;
     width: 80%;
     margin-left: 132px;
-    margin-top: 20px;
+    margin-top: -50px;
+    position: absolute;
     z-index: 1;
     font-family: 'Poppins', sans-serif;
 }
