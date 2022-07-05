@@ -18,7 +18,8 @@ function App() {
         </Switch>
         <Form />
         <Banner />
-        <Route path="/footer" component={Footer} />
+        <Footer />       
+
       </BrowserRouter>
     </div>
   );

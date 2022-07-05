@@ -1,5 +1,6 @@
 import { Button } from '@mui/material';
 import React from 'react';
+// import Error from './Error';
 import './Form.css';
 
 function Form() {
@@ -8,7 +9,8 @@ function Form() {
         <form>
             <input type="text" placeholder='Shorten a link here...' />
         </form>
-        <Button>Shorten It!</Button>    
+        <Button>Shorten It!</Button>
+        
     </div>
   )
 }

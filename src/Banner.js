@@ -1,5 +1,6 @@
 import React from 'react';
 import './Banner.css';
+import { Button } from "@mui/material";
 
 function Banner() {
   return (
@@ -47,6 +48,11 @@ function Banner() {
             audience engagement.
           </p>
         </div>
+      </div>
+
+      <div className="bannerSection">
+        <h4>Boost your links today</h4>
+        <Button>Get Started</Button>
       </div>
     </div>
   );

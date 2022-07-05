@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(260, 8%, 14%);
+    top: 0;
+    color: white;
+    height: 100%;
+    padding: 2em 0;
+}
+
+.footer > a{
+    margin-top: -93px;
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.socials {
+    margin-top: -93px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.socials > img {
+    margin-left: 10px;
+    font-size: 10px;
+}
